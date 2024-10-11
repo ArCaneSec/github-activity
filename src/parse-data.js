@@ -4,7 +4,6 @@ const FinalData = []
 
 function parseData(data) {
     for (const event of data) {
-        console.log(data)
         switch (event.type) {
             case "PushEvent":
                 FinalData.push(`Pushed ${event.payload.size} ${event.payload.size > 1 ? "commits" : "commit"} to ${event.repo.name} on ${event.created_at}`)
