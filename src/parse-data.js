@@ -34,7 +34,7 @@ function parseData(data) {
                 FinalData.push(`Created a new ${event.payload.ref_type} in ${event.repo.name} on ${event.created_at}`)
                 break
 
-            case "DeletedEvent":
+            case "DeleteEvent":
                 FinalData.push(`Deleted a ${event.payload.ref_type} in ${event.repo.name} on ${event.created_at}`)
                 break
         }
