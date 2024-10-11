@@ -22,23 +22,17 @@ The tool currently supports the following GitHub events:
 ## Installation
 
 1.  Clone the repository:
-    
-    bash
-    
-    Copy code
-    
-    `git clone https://github.com/ArCaneSec/github-activity.git` 
-    
+```bash
+git clone https://github.com/ArCaneSec/github-activity.git
+```
 2.  Navigate to the project directory:
-    
-    bash
-    
-    Copy code
-    
-    `cd github-activity-cli` 
-    
+```bash
+cd github-activity-cli
+```
 3.  Install the required dependencies.
-    ```npm install```
+ ```bash
+npm install
+ ```
 
 ## Usage
 
@@ -48,13 +42,9 @@ To fetch the recent activity of a GitHub user, run the following command:
 node src/app.js <github-username>
 ```
 Example:
-
-bash
-
-Copy code
-
-`node /src/app.js ArCaneSec` 
-
+```bash
+node /src/app.js ArCaneSec
+```
 The tool will display the recent events for the specified GitHub user along with the date on which each event occurred.
 
 ## Contributing
